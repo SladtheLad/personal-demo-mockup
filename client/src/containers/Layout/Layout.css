@@ -1,5 +1,9 @@
 .Content {
   margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Content select {
@@ -18,7 +22,21 @@
 
 @media (max-width: 600px) {
   .Content select {
-    width: 500px;
+    width: 95%;
     font-size: 24px;
   }
+  .Content img {
+    width: 200px;
+  }
+  .CardTitle {
+    width: 200px;
+    background-color: #1c1f2a;
+    color: #a3accc;
+    text-align: center;
+    line-height: 75px;
+  }
+  .Card {
+    margin-left: 10px;
+  }
+
 }

@@ -38,9 +38,13 @@ class Layout extends Component {
             <option value="first-person">&#128299; First-Person Shooting Games</option>
             <option value="role-playing">&#9861; Role-Playing Games</option>
           </select>
-          <div>
+          <div className={classes.Card}>
             <img src={gameImage} alt="Game Placeholder" />
-            <p>GAME TITLE</p>
+            <div className={classes.CardTitle}>GAME TITLE</div>
+          </div>
+          <div className={classes.Card}>
+            <img src={gameImage} alt="Game Placeholder" />
+            <div className={classes.CardTitle}>GAME TITLE</div>
           </div>
         </main>
       </React.Fragment>

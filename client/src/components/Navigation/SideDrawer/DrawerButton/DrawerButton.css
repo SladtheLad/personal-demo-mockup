@@ -10,3 +10,9 @@
     cursor: pointer;
     float: left;
 }
+
+@media (max-width: 600px) {
+  .DrawerButton {
+    display: none;
+  }
+}
