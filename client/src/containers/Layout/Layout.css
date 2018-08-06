@@ -36,9 +36,8 @@
     background-color: #1c1f2a;
     color: #a3accc;
     text-align: left;
-    padding-left: 10px;
-    line-height: 50px;
-    border-top: 10px solid #2b2f40;
+    padding: 5px 0 0 10px;
+    border-top: 8px solid #2b2f40;
     border-radius: 0 0 6px 6px;
   }
   .Card {

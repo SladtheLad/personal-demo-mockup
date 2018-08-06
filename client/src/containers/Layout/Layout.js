@@ -40,31 +40,31 @@ class Layout extends Component {
           </select>
           <div className={classes.Card}>
             <img src={gameImage} alt="Game Placeholder" />
-            <div className={classes.CardTitle}>GAME TITLE</div>
+            <p className={classes.CardTitle}>Game Title: Games are good</p>
           </div>
           <div className={classes.Card}>
             <img src={gameImage} alt="Game Placeholder" />
-            <div className={classes.CardTitle}>GAME TITLE</div>
+            <p className={classes.CardTitle}>Game Title: Games are good</p>
           </div>
           <div className={classes.Card}>
             <img src={gameImage} alt="Game Placeholder" />
-            <div className={classes.CardTitle}>GAME TITLE</div>
+            <p className={classes.CardTitle}>Game Title: Games are good</p>
           </div>
           <div className={classes.Card}>
             <img src={gameImage} alt="Game Placeholder" />
-            <div className={classes.CardTitle}>GAME TITLE</div>
+            <p className={classes.CardTitle}>Game Title: Games are good</p>
           </div>
           <div className={classes.Card}>
             <img src={gameImage} alt="Game Placeholder" />
-            <div className={classes.CardTitle}>GAME TITLE</div>
+            <p className={classes.CardTitle}>Game Title: Games are good</p>
           </div>
           <div className={classes.Card}>
             <img src={gameImage} alt="Game Placeholder" />
-            <div className={classes.CardTitle}>GAME TITLE</div>
+            <p className={classes.CardTitle}>Game Title: Games are good</p>
           </div>
           <div className={classes.Card}>
             <img src={gameImage} alt="Game Placeholder" />
-            <div className={classes.CardTitle}>GAME TITLE</div>
+            <p className={classes.CardTitle}>Game Title: Games are good</p>
           </div>
         </main>
       </React.Fragment>
