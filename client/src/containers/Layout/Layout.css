@@ -10,8 +10,8 @@
   margin: 40px 0 0 15px;
   padding: 5px 10px;
   background-color: #685bc7;
-  text-align: center;
-  text-align-last: center;
+  text-align: left;
+  text-align-last: left;
   color: white;
   border-radius: 8px;
   align-content: flex-end;
