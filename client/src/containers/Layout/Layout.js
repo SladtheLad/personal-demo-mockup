@@ -4,7 +4,13 @@ import classes from "./Layout.css";
 import NavBar from '../../components/Navigation/NavBar/NavBar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
-import gameImage from '../../assets/images/placeholder_games_cover.png';
+import legendOfMana from '../../assets/images/legend-of-mana.jpg';
+import crashBandicoot from '../../assets/images/crash-bandicoot-2.jpg';
+import dukesOfHazard from '../../assets/images/dukes-of-hazard.jpg';
+import legendOfZelda from '../../assets/images/legend-of-zelda.jpg';
+import animalCrossing from '../../assets/images/animal-crossing.jpg';
+import warioLand from '../../assets/images/wario-land.png';
+import projectJustice from '../../assets/images/project-justice.jpg';
 
 
 class Layout extends Component {
@@ -31,42 +37,44 @@ class Layout extends Component {
         <SideDrawer
           open={this.state.showSideDrawer}
           closed={this.sideDrawerClosedHandler} />
-        <main className={classes.Content}>
+        <div className={classes.Content}>
           {this.props.children}
-          <select name="view games">
-            <option value="browse all">&#8734; Browse All Games</option>
-            <option value="first-person">&#128299; First-Person Shooting Games</option>
-            <option value="role-playing">&#9861; Role-Playing Games</option>
-          </select>
-          <div className={classes.Card}>
-            <img src={gameImage} alt="Game Placeholder" />
-            <p className={classes.CardTitle}>Game Title: Games are good</p>
+          <div className={classes.Browse}>
+            <select name="view games">
+              <option value="browse all">&#8734; Browse All Games</option>
+              <option value="first-person">&#128299; First-Person Shooting Games</option>
+              <option value="role-playing">&#9861; Role-Playing Games</option>
+            </select>
           </div>
           <div className={classes.Card}>
-            <img src={gameImage} alt="Game Placeholder" />
-            <p className={classes.CardTitle}>Game Title: Games are good</p>
+            <img src={crashBandicoot} alt="Crash Bandicoot 2" />
+            <p className={classes.CardTitle}>Crash Bandicoot 2: Cortex Strikes Back</p>
           </div>
           <div className={classes.Card}>
-            <img src={gameImage} alt="Game Placeholder" />
-            <p className={classes.CardTitle}>Game Title: Games are good</p>
+            <img src={legendOfMana} alt="Legend of Mana" />
+            <p className={classes.CardTitle}>Legend of Mana</p>
           </div>
           <div className={classes.Card}>
-            <img src={gameImage} alt="Game Placeholder" />
-            <p className={classes.CardTitle}>Game Title: Games are good</p>
+            <img src={legendOfZelda} alt="Legend of Zelda" />
+            <p className={classes.CardTitle}>The Legend of Zelda: Link's Awakening</p>
           </div>
           <div className={classes.Card}>
-            <img src={gameImage} alt="Game Placeholder" />
-            <p className={classes.CardTitle}>Game Title: Games are good</p>
+            <img src={projectJustice} alt="Project Justice" />
+            <p className={classes.CardTitle}>Project Justice</p>
           </div>
           <div className={classes.Card}>
-            <img src={gameImage} alt="Game Placeholder" />
-            <p className={classes.CardTitle}>Game Title: Games are good</p>
+            <img src={warioLand} alt="Wario Land" />
+            <p className={classes.CardTitle}>Virtual Boy Wario Land</p>
           </div>
           <div className={classes.Card}>
-            <img src={gameImage} alt="Game Placeholder" />
-            <p className={classes.CardTitle}>Game Title: Games are good</p>
+            <img src={animalCrossing} alt="Animal Crossing" />
+            <p className={classes.CardTitle}>Animal Crossing</p>
           </div>
-        </main>
+          <div className={classes.Card}>
+            <img src={dukesOfHazard} alt="Dukes of Hazard" />
+            <p className={classes.CardTitle}>The Dukes of Hazzard: Racing for Home</p>
+          </div>
+        </div>
       </React.Fragment>
     )
   }

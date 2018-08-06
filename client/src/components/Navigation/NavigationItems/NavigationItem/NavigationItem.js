@@ -4,6 +4,7 @@ import classes from './NavigationItem.css';
 
 const navigationItem = (props) => (
   <li className={classes.NavigationItem}>
+    <img src={props.img} alt="Nav Icon" />
     <a
       to={props.link}
       exact={props.exact}

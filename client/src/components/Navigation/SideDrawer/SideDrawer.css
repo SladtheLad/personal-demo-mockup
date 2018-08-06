@@ -5,9 +5,10 @@
   height: 100%;
   left: 0;
   top: 0;
+  align-items: left;
   z-index: 200;
   background-color: #1c1f2a;
-  padding: 32px 16px;
+  padding: 12px 6px;
   box-sizing: border-box;
   transition: transform 0.3s ease-out;
 }
