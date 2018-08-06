@@ -1,0 +1,15 @@
+.Balance {
+  display: block;
+  line-height: 0;
+  text-align: center;
+  width: 130px;
+}
+
+.Bold {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Small {
+  font-size: 14px;
+}

@@ -1,13 +1,10 @@
 .NavBar {
-  height: 70px;
+  height: 74px;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   background-color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 20px;
   box-shadow: 1px 10px 3px 0px rgba(0, 0, 0, .3);
   box-sizing: border-box;
   z-index: 90;
@@ -15,15 +12,37 @@
 
 .NavBar nav {
   height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row;
+  align-items: center;
 }
 
-.Logo {
-  height: 80%;
+.NavBar a {
+  height: 100%;
+  background-color: #26d07c;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 22px;
+  width: 170px;
+  text-align: center;
+  line-height: 74px;
 }
 
+.NavBar img {
+  height: 74px;
+  width: 74px;
+}
 
-@media (max-width: 499px) {
-  .DesktopOnly {
-    display: none;
+@media (max-width: 600px) {
+  .NavBar {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    align-items: center;
+  }
+  .NavBar a {
+    font-size: 20px;
   }
 }
