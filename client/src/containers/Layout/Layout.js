@@ -46,6 +46,26 @@ class Layout extends Component {
             <img src={gameImage} alt="Game Placeholder" />
             <div className={classes.CardTitle}>GAME TITLE</div>
           </div>
+          <div className={classes.Card}>
+            <img src={gameImage} alt="Game Placeholder" />
+            <div className={classes.CardTitle}>GAME TITLE</div>
+          </div>
+          <div className={classes.Card}>
+            <img src={gameImage} alt="Game Placeholder" />
+            <div className={classes.CardTitle}>GAME TITLE</div>
+          </div>
+          <div className={classes.Card}>
+            <img src={gameImage} alt="Game Placeholder" />
+            <div className={classes.CardTitle}>GAME TITLE</div>
+          </div>
+          <div className={classes.Card}>
+            <img src={gameImage} alt="Game Placeholder" />
+            <div className={classes.CardTitle}>GAME TITLE</div>
+          </div>
+          <div className={classes.Card}>
+            <img src={gameImage} alt="Game Placeholder" />
+            <div className={classes.CardTitle}>GAME TITLE</div>
+          </div>
         </main>
       </React.Fragment>
     )
