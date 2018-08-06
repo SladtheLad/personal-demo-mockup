@@ -4,6 +4,7 @@ import classes from "./Layout.css";
 import NavBar from '../../components/Navigation/NavBar/NavBar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
+
 class Layout extends Component {
 
   state = {
