@@ -25,3 +25,13 @@
   height: 11%;
   margin-bottom: 32px;
 }
+
+.LogoBackground {
+  background-color: #222633;
+}
+
+.Border {
+  background-color: #2b2f40;
+  height: 2px;
+  width: 100%;
+}

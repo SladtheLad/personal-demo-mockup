@@ -1,5 +1,8 @@
 .Content {
   margin-top: 72px;
+      display: flex;
+      justify-content: flex-start;
+      flex-flow: wrap;
 }
 
 .Content select {
@@ -7,14 +10,14 @@
   font-size: 18px;
   width: 278px;
   height: 48px;
-  margin: 40px 0 0 15px;
+  margin: 40px 1500px 0 15px;
   padding: 5px 10px;
   background-color: #685bc7;
   text-align: left;
   text-align-last: left;
   color: white;
   border-radius: 8px;
-  align-content: flex-end;
+  align-self: flex-start;
 }
 
 .Content img {
@@ -30,10 +33,12 @@
   color: #a3accc;
   text-align: left;
   padding: 8px 0 0 16px;
-  border-top: 8px solid #2b2f40;
+  border-top: 2px solid #2b2f40;
   border-radius: 0 0 6px 6px;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, .3);
   position: absolute;
   bottom: -50px;
+  font-size: 14px;
 }
 
 .Card {
@@ -43,32 +48,31 @@
   display: inline-block;
 }
 
-.Row {
-  display: block;
-}
 
 @media (max-width: 600px) {
+  .Content {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+  }
   .Content select {
     width: 95%;
-    font-size: 24px;
+    margin: 0;
+    margin-top: 40px;
+    font-size: 14px;
+    padding-left: 15px;
   }
+
+  .Card {
+    margin-left: 15px;
+  }
+  
   .Content img {
-    width: 210px;
+    width: 156px;
     margin-bottom: 0;
   }
   .CardTitle {
     margin-top: 0;
-    width: 200px;
-    height: 50px;
-    background-color: #1c1f2a;
-    color: #a3accc;
-    text-align: left;
-    padding: 5px 0 0 10px;
-    border-top: 8px solid #2b2f40;
-    border-radius: 0 0 6px 6px;
-  }
-  .Card {
-    margin-left: 5%;
-    margin-top: 2%;
+    width: 140px;
   }
 }

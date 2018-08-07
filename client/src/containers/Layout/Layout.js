@@ -39,13 +39,13 @@ class Layout extends Component {
           closed={this.sideDrawerClosedHandler} />
         <div className={classes.Content}>
           {this.props.children}
-          <div className={classes.Browse}>
+
             <select name="view games">
               <option value="browse all">&#8734; Browse All Games</option>
               <option value="first-person">&#128299; First-Person Shooting Games</option>
               <option value="role-playing">&#9861; Role-Playing Games</option>
             </select>
-          </div>
+
           <div className={classes.Card}>
             <img src={crashBandicoot} alt="Crash Bandicoot 2" />
             <p className={classes.CardTitle}>Crash Bandicoot 2: Cortex Strikes Back</p>
